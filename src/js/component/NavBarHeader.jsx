@@ -4,8 +4,8 @@ import MenuHeader from "./MenuHeader.jsx";
 //create your first component
 const Navbar = () => {
 	return (
-		<div className="container">
-			<nav className="navbar navbar-expand-lg navbar-dark bg-dark">
+		<nav className="navbar navbar-expand-lg navbar-dark bg-dark">
+			<div className="container">
 				<a className="navbar-brand" href="#">
 					Start Bootstrap
 				</a>
@@ -22,8 +22,8 @@ const Navbar = () => {
 				<div className="collapse navbar-collapse" id="navbarNav">
 					<MenuHeader />
 				</div>
-			</nav>
-		</div>
+			</div>
+		</nav>
 	);
 };
 

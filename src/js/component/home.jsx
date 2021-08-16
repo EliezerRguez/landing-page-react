@@ -1,5 +1,6 @@
 import React from "react";
 import Navbar from "./NavBarHeader.jsx";
+import Jumbotron from "./Jumbotron.jsx";
 import FooterHome from "./FooterHome.jsx";
 
 //create your first component
@@ -15,7 +16,6 @@ const Home = () => {
 					buttonURL="#"
 				/>
 			</div>
-			
 			<FooterHome />
 		</div>
 	);
